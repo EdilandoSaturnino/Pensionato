@@ -23,7 +23,7 @@ public class App {
 
         System.out.print("Quantos quartos serão alugados? ");
         int n = sc.nextInt();
-        sc.nextLine();  // Consumir a nova linha pendente
+        sc.nextLine();
 
         for (int i = 1; i <= n; i++) {
             System.out.println("Quarto #" + i + ":");
@@ -33,7 +33,7 @@ public class App {
             String email = sc.nextLine();
             System.out.print("Quarto: ");
             int quarto = sc.nextInt();
-            sc.nextLine();  // Consumir a nova linha pendente
+            sc.nextLine();
 
             quartos[quarto] = new Estudante(nome, email);
         }
